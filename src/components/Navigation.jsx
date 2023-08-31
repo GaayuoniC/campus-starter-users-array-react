@@ -5,14 +5,24 @@ export function Navigation() {
       <nav>
         <div className="filter-by">
           <p>Filter by;</p>
-          <ul>All </ul>
-          <ul>Men</ul>
-          <ul>Women</ul>
+          <ul>
+            <button id="click-all">All</button>{" "}
+          </ul>
+          <ul>
+            <button id="click-men">Men</button>
+          </ul>
+          <ul>
+            <button id="click-women">Women</button>
+          </ul>
         </div>
         <div className="sort-by">
           <p>Sort by;</p>
-          <ul>Name</ul>
-          <ul>Age</ul>
+          <ul>
+            <button id="click-name">Name</button>
+          </ul>
+          <ul>
+            <button id="click-age">Age</button>
+          </ul>
         </div>
       </nav>
     </div>

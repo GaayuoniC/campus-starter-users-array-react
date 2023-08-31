@@ -24,10 +24,10 @@ nav {
   position: relative;
   top: 1em;
 }
-ul {
+button {
   border: 1px solid black;
   width: 60px;
   height: 25px;
-  background-color: aquamarine;
+  background-color: rgb(217, 238, 231);
   border-radius: var(--border-radius);
 }
