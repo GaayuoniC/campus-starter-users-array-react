@@ -1,12 +1,14 @@
 import "./App.css";
 import { Card } from "./components/Card";
 import { users } from "./data/users";
+import { Navigation } from "./components/Navigation";
 
 function App() {
   return (
     <>
       <header>
         <h1>Array function magic</h1>
+        <Navigation />
       </header>
       <main>
         <section className="card-list">

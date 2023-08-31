@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: blue;
+    gap: 150px;
+}
+.filter-by {
+    display: flex;
+    gap: 24px;
+    position: relative;
+}
+.sort-by{
+    display: flex;
+    gap: 24px;
+    position: relative;
+}
