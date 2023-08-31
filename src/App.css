@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  --border-radius: 8px;
 }
 
 h1 {
@@ -21,4 +22,5 @@ main {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin-top: 40px;
 }
