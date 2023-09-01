@@ -1,8 +1,16 @@
 import "./Navigation.css";
+import { useState } from "react";
 export function Navigation() {
+  const [isSelected, setIsSelected] = userState(false);
+  console.log("Navigations function has been called");
+
+  function onSelectButtonType() {
+    setIsSelected(!isSelected);
+  }
+
   return (
     <div>
-      <nav>
+      <nav onClick={}>
         <div className="filter-by">
           <p>Filter by;</p>
           <ul>
