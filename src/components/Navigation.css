@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background-color: blue; */
+   gap: 10px; 
+  justify-content: space-around;
+  justify-content: space-between;
+
+}
+.filter-by {
+  display: flex;
+  gap: 24px;
+  position: relative;
+}
+.filter-by ul {
+  position: relative;
+  top: 1em;
+  /* right: 5em; */
+}
+.sort-by {
+  display: flex;
+  gap: 24px;
+  position: relative;
+}
+.sort-by ul {
+  position: relative;
+  top: 1em;
+}
+button {
+  border: 1px solid black;
+  width: 60px;
+  height: 25px;
+  background-color: rgb(217, 238, 231);
+  border-radius: var(--border-radius);
+}
