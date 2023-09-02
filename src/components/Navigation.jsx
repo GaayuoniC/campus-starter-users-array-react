@@ -2,7 +2,7 @@ import "./Navigation.css";
 export function Navigation({ activeButton, onChange }) {
   return (
     <div>
-      <nav onClick={}>
+      <nav>
         <div className="filter-by">
           <p>Filter by;</p>
           <ul>
@@ -16,8 +16,8 @@ export function Navigation({ activeButton, onChange }) {
           </ul>
           <ul>
             <button
-              style={activeButton === "men" ? { color: "red" } : {}}
-              onClick={() => onChange("men")}
+              style={activeButton === "male" ? { color: "red" } : {}}
+              onClick={() => onChange("male")}
               id="click-men"
             >
               Men
@@ -25,8 +25,8 @@ export function Navigation({ activeButton, onChange }) {
           </ul>
           <ul>
             <button
-              style={activeButton === "women" ? { color: "red" } : {}}
-              onClick={() => onChange("women")}
+              style={activeButton === "female" ? { color: "red" } : {}}
+              onClick={() => onChange("female")}
               id="click-women"
             >
               Women
@@ -52,6 +52,10 @@ export function Navigation({ activeButton, onChange }) {
             >
               Age
             </button>
+          </ul>
+          <ul>
+            <button style={activeButton === "by-country"? {color : "red"} : {}}
+            onClick={()=> onChange("by-country")}>Country</button>
           </ul>
         </div>
       </nav>
